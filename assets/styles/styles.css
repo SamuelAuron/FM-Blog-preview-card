@@ -1,0 +1,49 @@
+* {
+ margin: 0;
+ font-family: 'Figtree';
+}
+
+body {
+  height: 100vh;
+  background: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 280px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 16px;
+  gap: 1em;
+  border: 1px black solid;
+  box-shadow: black 10px 10px;
+
+  img {
+    border-radius: 16px;
+  }
+}
+
+p {
+  color: hsl(0, 0%, 42%);
+}
+
+.tag {
+  width: fit-content;
+  background: hsl(47, 88%, 63%);
+  padding: 0.7em;
+  border-radius: 8px;
+}
+
+.published {
+  color: hsl(0, 0%, 7%);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
